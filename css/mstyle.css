@@ -1,0 +1,209 @@
+.nopadding{
+	padding:0px !important;	
+}
+.nomargin{
+	margin:0px !important;	
+}
+*{
+	font-family:Microsoft JhengHei;	
+}
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:center;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+@media (min-width: 992px) {
+.col-md-1-8{
+	width:12.5%;
+	float:left;
+}
+}
+@media (min-width: 410px) {
+.col-xs-sss{
+	width:100%;
+	float:left;
+}
+}
+/**********************************/
+
+/*顏色*/
+.red{ color:#E00003;}
+
+/****框架與大標設定****/
+
+
+/****麵包屑****/
+.breadBox{
+	background-color:#dedede;
+}
+.breadcrumb a{
+	color:#f7941e;
+}
+.breadcrumb a:hover{
+	text-decoration:none;
+	color:#BBBBBB;
+}
+.breadcrumbBlock{
+	padding:0 5%;	
+}
+.breadcrumb {
+    padding-top: 30px;
+    color: #888888;
+}
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 0px;
+    list-style: none;
+    background-color: #dedede;
+}
+
+
+
+/****左邊選單****/
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.sidebar {
+    margin: 10px 0 0 0;
+    display: inline-block;
+}
+.sidebar li {
+	font-size:16px;
+	color:#999999;
+	font-weight:600;
+    margin: 0 0 20px 0;
+    /* display: inline-block; */
+}
+.sidebar li a:hover, .sidebar a.on {
+    color: #6BB0BE;
+    border-left: solid 3px #6BB0BE;
+}
+.sidebar li a {
+	color:#999999;
+    width: 100%;
+    height: 30px;
+    padding: 5px 10px;
+    vertical-align: middle;
+    border-left: solid 3px #999;
+}
+a {
+    text-decoration: none!important;
+}
+.sidebar select {
+    width: 100%;
+    padding: 15px 10px;
+}
+/****左邊選單 結束****/
+
+/*頂端*/
+.top{
+	height:38px;
+	width:38px;
+	border-radius:50%;
+	background:rgba(230,230,230,0.6);
+	text-align:center;
+	position:fixed;
+	right:4%;
+	bottom:6%;
+	z-index:99;
+	cursor:pointer;
+	display:none;
+}
+
+.top i{
+	color:#2a54a5;
+	margin-top:17%;
+	font-size:24px;
+}
+
+
+
+
+
+
+/**********image-pop-up***************************/
+/* overlay at start */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+  opacity: 0;
+}
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+  opacity: 0;
+
+  -webkit-transition: all 0.15s ease-out;
+  -moz-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+/* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+  opacity: 1;
+}
+/* content animate out */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+  opacity: 0;
+}
+@media only screen and (max-width : 1200px){
+
+}
+@media only screen and (min-width : 1200px){
+
+}
+@media only screen and (max-width : 1199px){
+
+}
+@media only screen and (min-width : 992px){
+.albumDateBlock{
+	float:left;
+	text-align:left;	
+}
+.albumTitleBlock{
+	float:left;	
+}
+}
+@media only screen and (max-width : 991px){
+.albumDateBlock{
+	text-align:left;
+	padding:0px 5px;	
+}
+.albumTitleBlock{
+	text-align:left;
+}
+}
+@media only screen and (min-width : 768px){
+
+}
+@media only screen and (max-width : 767px){
+
+}
+@media only screen and (max-width : 440px){
+
+}
+@media only screen and (max-width : 420px){
+
+}
